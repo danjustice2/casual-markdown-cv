@@ -1,23 +1,35 @@
-<!DOCTYPE html>
-<title>Resume</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.css">
-<script src="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.js"></script>
-<style>  
-  body { line-height:1.5; margin:auto; padding:3px; max-width:1024px; display:none; FONT-FAMILY:"Segoe UI",ARIAL; }
-  h1  { font-size:200%; padding:16px; border:1px solid lightgrey; BACKGROUND:#f0f0f0; }
-  h2  { border-bottom:1px solid grey; padding:2px }
-</style>
-<body onload="document.body.innerHTML=md.html(document.body.innerHTML); document.body.style.display='block';">
-<!--======= COPY ABOVE CODE AS HEADER, THEN FOLLOW WITH RESUME CONTENT IN MARKDOWN FORMAT =========-->
+<head>
+  <!DOCTYPE html>
+  <title>Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.css">
+  <script src="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.js"></script>
+  <style>  
+    body { line-height:1.5; margin:auto; padding:3px; max-width:1024px; display:none; FONT-FAMILY:"Segoe UI",ARIAL; }
+    h1  { font-size:200%; flex-grow: 1; }
+    h2  { border-bottom:1px solid grey; padding:2px }
+    .debug { border: 2px solid royalblue; background-color: orangered;}
+    .hero p, .hero a { margin-bottom: 2; margin-top: 0 }
+  </style>
+  <body onload="document.body.innerHTML=md.html(document.body.innerHTML); document.body.style.display='block';">
+</head>
 
-<img style="float:right;border-radius:50%;width:150px;padding:6px" src="IMG_2773.jpg" />
 
-<span style="float:right;padding:6px"> 
-  danjustice66@gmail.com <br> mobile: +45 60 90 97 63
-</span>
 
+<div class="hero" style="display:flex; flex-direction: row-reverse; align-items:center; padding:16px; border:1px solid lightgrey; BACKGROUND:#f0f0f0;">
+  <img style="border-radius:50%;width:200px;padding:6px;margin-left: 16px;" src="IMG_2773.jpg" />
+  <div style="display: flex; flex-direction: column; line-height: 1; text-align: right;">
+  <a href="mailto:danjustice66@gmail.com">danjustice66@gmail.com</a>
+  <br>
+  <a href="tel:+4560909763">+45 60 90 97 63</a>
+  <p style="margin-top: 16px;">Hovedgaden 77</p>
+  <p>1. sal</p>
+  <p>6360 Tinglev</p>
+  </div>
+  
 # Dan Justice
+</div>
+
 
 ## Profil
 
